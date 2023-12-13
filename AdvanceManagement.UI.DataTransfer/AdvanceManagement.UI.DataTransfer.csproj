@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DataTransferObjects\DTAdvanceRequestStatus\" />
+    <Folder Include="DataTransferObjects\DTApprovalStatus\" />
+    <Folder Include="DataTransferObjects\DTFinanceManager\" />
+    <Folder Include="DataTransferObjects\DTPaybackReceipt\" />
+    <Folder Include="DataTransferObjects\DTPaymentReceipt\" />
+    <Folder Include="DataTransferObjects\DTProject\" />
+    <Folder Include="DataTransferObjects\DTTitleAmountApprovalRule\" />
+    <Folder Include="DataTransferObjects\DTTitle\" />
+    <Folder Include="DataTransferObjects\DTUnit\" />
+  </ItemGroup>
+
 </Project>

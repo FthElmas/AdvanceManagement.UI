@@ -1,0 +1,16 @@
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\bin\Debug\net8.0\AdvanceManagement.UI.Service.deps.json
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\bin\Debug\net8.0\AdvanceManagement.UI.Service.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\bin\Debug\net8.0\AdvanceManagement.UI.Service.pdb
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\bin\Debug\net8.0\AdvanceManagement.UI.DataTransfer.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\bin\Debug\net8.0\AdvanceManagement.UI.DataTransfer.pdb
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.csproj.AssemblyReference.cache
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.AssemblyInfoInputs.cache
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.AssemblyInfo.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.sourcelink.json
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.csproj.CopyComplete
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\refint\AdvanceManagement.UI.Service.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.pdb
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\ref\AdvanceManagement.UI.Service.dll

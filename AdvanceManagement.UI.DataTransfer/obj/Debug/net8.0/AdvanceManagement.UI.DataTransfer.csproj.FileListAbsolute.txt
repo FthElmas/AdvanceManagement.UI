@@ -1,0 +1,12 @@
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\bin\Debug\net8.0\AdvanceManagement.UI.DataTransfer.deps.json
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\bin\Debug\net8.0\AdvanceManagement.UI.DataTransfer.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\bin\Debug\net8.0\AdvanceManagement.UI.DataTransfer.pdb
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.AssemblyInfoInputs.cache
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.AssemblyInfo.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.sourcelink.json
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\refint\AdvanceManagement.UI.DataTransfer.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.pdb
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\ref\AdvanceManagement.UI.DataTransfer.dll
