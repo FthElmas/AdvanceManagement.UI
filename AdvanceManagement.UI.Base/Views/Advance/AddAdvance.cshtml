@@ -1,0 +1,46 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <style>
+        .form-container {
+            max-width: 400px;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="form-container">
+                    <form method="post">
+                        <div class="form-group">
+                            <label for="topNumber">Top Number</label>
+                            <input type="number" class="form-control" id="topNumber" name="topNumber" placeholder="Enter a number">
+                        </div>
+                        <div class="form-group">
+                            <label for="datetime">Datetime</label>
+                            <input type="datetime-local" class="form-control" id="datetime" name="datetime">
+                        </div>
+                        <div class="form-group">
+                            <label for="select">Select</label>
+                            <select class="form-control" id="select" name="select">
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Textarea</label>
+                            <textarea class="form-control" id="textarea" name="textarea" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

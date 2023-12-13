@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Base
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Advance/AddAdvance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2YW5jZVxBZGRBZHZhbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Advance/AdvanceDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2YW5jZVxBZHZhbmNlRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Advance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2YW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Login/Index.cshtml]

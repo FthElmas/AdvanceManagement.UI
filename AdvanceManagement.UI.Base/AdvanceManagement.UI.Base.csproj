@@ -15,4 +15,8 @@
     <ProjectReference Include="..\AdvanceManagement.UI.Service\AdvanceManagement.UI.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ViewComponents\" />
+  </ItemGroup>
+
 </Project>
