@@ -1,7 +1,9 @@
 using AdvanceManagement.UI.Service.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -68,6 +70,9 @@ builder.Services.AddSession(opt =>
     opt.Cookie.IsEssential = true;
 });
 
+builder.Services.AddScoped<AuthorizeAttribute>();
+builder.Services.AddScoped<AuthorizeFilter>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -81,8 +86,8 @@ app.UseRouting();
 
 app.UseSession();
 
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",

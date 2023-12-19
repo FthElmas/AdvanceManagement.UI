@@ -25,16 +25,12 @@
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\Sidebar.css",
-      "PackagePath": "staticwebassets\\css\\Sidebar.css"
+      "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\sidestyle.css",
+      "PackagePath": "staticwebassets\\css\\sidestyle.css"
     },
     {
       "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\favicon.ico",
@@ -49,8 +45,8 @@
       "PackagePath": "staticwebassets\\js\\Sidebar.js"
     },
     {
-      "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\js\\script.js",
-      "PackagePath": "staticwebassets\\js\\script.js"
+      "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\js\\sidescript.js",
+      "PackagePath": "staticwebassets\\js\\sidescript.js"
     },
     {
       "Id": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\js\\site.js",

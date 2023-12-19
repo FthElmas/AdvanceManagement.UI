@@ -1,4 +1,5 @@
-﻿using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTAdvance;
+﻿using AdvanceManagement.API.DataTransfer.DataTransferObjects.Complex;
+using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTAdvance;
 using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTAdvanceRequestStatus;
 using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTFinanceManager;
 using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTPaymentReceipt;
@@ -6,6 +7,7 @@ using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTUser;
 using AdvanceManagement.UI.Base.Extensions;
 using AdvanceManagement.UI.DataTransfer.DataTransferObjects.Complex;
 using AdvanceManagement.UI.Service.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -20,6 +22,7 @@ namespace AdvanceManagement.UI.Base.Controllers
             return View(data);
         }
 
+        [Authorize(Roles = "UnitManager, Director, GMY, GM")]
         [HttpGet]
         public async Task<IActionResult> ApproveAdvance(int advanceID, int requestID)
         {
@@ -37,6 +40,7 @@ namespace AdvanceManagement.UI.Base.Controllers
             return View(data);
         }
 
+        [Authorize(Roles = "FinanceManager")]
         [HttpGet]
         public async Task<IActionResult> FinancePendingAdvance()
         {
@@ -45,6 +49,7 @@ namespace AdvanceManagement.UI.Base.Controllers
             return View(data);
         }
 
+        [Authorize(Roles = "FinanceManager")]
         [HttpGet]
         public async Task<IActionResult> FinanceAdvance(int advanceID)
         {
@@ -62,10 +67,14 @@ namespace AdvanceManagement.UI.Base.Controllers
 
         }
 
+        [Authorize(Roles = "FinanceManager")]
         [HttpPost]
-        public async Task<IActionResult> FinanceAdvance(int advanceID, DateTime payTime)
+        public async Task<IActionResult> FinanceAdvance(int advanceID, DateTime payTime, DateTime? advanceTime)
         {
             var user = HttpContext.Session.GetSession<UserDTO>("info");
+            var error = new ErrorDTO { StatusCode = 400, ErrorMessages = new List<string> { "Girilen Tarih avanstan önce olamaz" } };
+            if (advanceTime > payTime)
+                return new BadRequestObjectResult(error);
             var data = new FinanceManagerAddDTO
             {
                 WorkerID = (int)user.WorkerID,
@@ -81,10 +90,12 @@ namespace AdvanceManagement.UI.Base.Controllers
             return BadRequest();
         }
 
-
-        public async Task<IActionResult> ApproveAdvance(bool isApproved, decimal approvedAmount, int requestID)
+        [Authorize(Roles = "UnitManager, Director, GMY, GM")]
+        public async Task<IActionResult> ApproveAdvance(bool isApproved, decimal approvedAmount, int requestID, decimal lastAmount)
         {
             var user = HttpContext.Session.GetSession<UserDTO>("info");
+            var error = new ErrorDTO { StatusCode = 400, ErrorMessages = new List<string> { "Girilen Miktar önceki avans onaylamadan az olamaz" } };
+
             if (isApproved != true)
             {
                 var data = new AdvanceRequestStatusUpdateDTO
@@ -102,7 +113,7 @@ namespace AdvanceManagement.UI.Base.Controllers
                 await requestService.ApproveOrDeclineStatus(data);
                 return RedirectToAction("PendingAdvance");
             }
-            else if (isApproved)
+            else if (isApproved && approvedAmount <= lastAmount)
             {
                 var data = new AdvanceRequestStatusUpdateDTO
                 {
@@ -120,11 +131,11 @@ namespace AdvanceManagement.UI.Base.Controllers
                 return RedirectToAction("PendingAdvance");
             }
             else
-                return BadRequest();
+                return new BadRequestObjectResult(error);
         }
 
 
-
+        [Authorize(Roles = "UnitManager, Director, GMY, GM")]
         public async Task<IActionResult> PendingAdvance()
         {
             var user = HttpContext.Session.GetSession<UserDTO>("info");
@@ -140,6 +151,7 @@ namespace AdvanceManagement.UI.Base.Controllers
 
             return View(data);
         }
+
 
         public async Task<IActionResult> AdvanceDetail(int advanceID)
         {
@@ -179,16 +191,16 @@ namespace AdvanceManagement.UI.Base.Controllers
             
             if(data)
             {
-                return Ok(data);
+                return RedirectToAction("AddAdvance");
             }
 
-            return BadRequest();
+            return new BadRequestObjectResult(new ErrorDTO {StatusCode = 400, ErrorMessages = new List<string> {"Zaten bu projede bir avans talebiniz mevcut"} });
 
 
         }
 
 
-
+        [Authorize(Roles = "Accountant")]
         [HttpGet]
         public async Task<IActionResult> AccountantPendingAdvance()
         {
@@ -197,7 +209,7 @@ namespace AdvanceManagement.UI.Base.Controllers
         }
 
 
-
+        [Authorize(Roles = "Accountant")]
         [HttpGet]
         public async Task<IActionResult> AccountantAdvance(int advanceID)
         {
@@ -215,7 +227,7 @@ namespace AdvanceManagement.UI.Base.Controllers
         }
 
 
-
+        [Authorize(Roles = "Accountant")]
         [HttpPost]
         public async Task<IActionResult> AccountantAdvance(int advanceID, string receiptDesc)
         {

@@ -3,6 +3,7 @@ using AdvanceManagement.UI.Base.Extensions;
 using AdvanceManagement.UI.DataTransfer.DataTransferObjects.Complex;
 using AdvanceManagement.UI.Service.Services;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
@@ -54,11 +55,16 @@ namespace AdvanceManagement.UI.Base.Controllers
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
-                var userpri = new ClaimsPrincipal(userIdentity);
+                var userPrincipal = new ClaimsPrincipal(userIdentity);
 
-                await HttpContext.SignInAsync(userpri);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, userPrincipal, new AuthenticationProperties
+                {
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(20),
+                    IsPersistent = false,
+                    AllowRefresh = false
+                });
 
-                
+
 
 
                 return RedirectToAction("Index", "Home");
@@ -68,10 +74,6 @@ namespace AdvanceManagement.UI.Base.Controllers
             return RedirectToAction("Index", "Login");
         }
 
-        public IActionResult KayitOl()
-        {
-            return View(new UserDTO());
-        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -87,6 +89,21 @@ namespace AdvanceManagement.UI.Base.Controllers
             }
 
             return View();
+        }
+
+
+        public async Task<IActionResult> Logout()
+        {
+  
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+     
+            HttpContext.Response.Cookies.Delete("token");
+
+     
+            HttpContext.Session.Clear();
+
+            return RedirectToAction("Index", "Login");
         }
     }
 }

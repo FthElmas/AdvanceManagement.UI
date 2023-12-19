@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wv4bPJp5udXuT7OynwbR599zN/hCidEXeMjPqqT51bU=",
+  "Hash": "vOga/7QxlZVVuWsF7O4j08dwl/Mj2s2Wq9tIvJay/9g=",
   "Source": "AdvanceManagement.UI.Base",
   "BasePath": "_content/AdvanceManagement.UI.Base",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\Sidebar.css",
+      "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\sidestyle.css",
       "SourceId": "AdvanceManagement.UI.Base",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\",
       "BasePath": "_content/AdvanceManagement.UI.Base",
-      "RelativePath": "css/Sidebar.css",
+      "RelativePath": "css/sidestyle.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Sidebar.css"
+      "OriginalItemSpec": "wwwroot\\css\\sidestyle.css"
     },
     {
       "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\site.css",
@@ -129,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\css\\style.css",
-      "SourceId": "AdvanceManagement.UI.Base",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\",
-      "BasePath": "_content/AdvanceManagement.UI.Base",
-      "RelativePath": "css/style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\favicon.ico",
@@ -245,25 +226,6 @@
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
     },
     {
-      "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\js\\script.js",
-      "SourceId": "AdvanceManagement.UI.Base",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\",
-      "BasePath": "_content/AdvanceManagement.UI.Base",
-      "RelativePath": "js/script.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\script.js"
-    },
-    {
       "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\js\\Sidebar.js",
       "SourceId": "AdvanceManagement.UI.Base",
       "SourceType": "Discovered",
@@ -281,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Sidebar.js"
+    },
+    {
+      "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\js\\sidescript.js",
+      "SourceId": "AdvanceManagement.UI.Base",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\",
+      "BasePath": "_content/AdvanceManagement.UI.Base",
+      "RelativePath": "js/sidescript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sidescript.js"
     },
     {
       "Identity": "C:\\Users\\Fatih\\source\\repos\\AdvanceManagement.UI\\AdvanceManagement.UI.Base\\wwwroot\\js\\site.js",

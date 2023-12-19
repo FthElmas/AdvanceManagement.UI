@@ -1,8 +1,9 @@
-﻿@model List<PageAuthorizationSelectDTO>
+﻿@model SideMenuDTO
 
 
-
-
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <title> Responsive Sidebar Menu  | CodingLab </title>
@@ -10,8 +11,8 @@
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="~/css/style.css" rel="stylesheet" />
-    <script src="~/js/script.js"></script>
+    <link href="~/css/sidestyle.css" rel="stylesheet" />
+    <script src="~/js/sidescript.js"></script>
 </head>
 <body>
     <div class="sidebar">
@@ -21,7 +22,7 @@
             <i class='bx bx-menu' id="btn"></i>
         </div>
         <ul class="nav-list">
-            @foreach(var item in Model)
+            @foreach (var item in Model.PageAuthoriation)
             {
                 <li>
                     <a href="@item.PageAuthorizationPath">
@@ -32,18 +33,19 @@
                 </li>
             }
 
-
-
             <li class="profile">
                 <div class="profile-details">
-                    <img src="profile.jpg" alt="profileImg">
+                    <img src="~/Images/fineksus_logo.jpeg" alt="">
                     <div class="name_job">
-                        <div class="name">Prem Shahi</div>
-                        <div class="job">Web designer</div>
+                        <div class="name">@Model.WorkerName</div>
+                        <div class="job">@Model.Rolename</div>
                     </div>
                 </div>
-                <i class='bx bx-log-out' id="log_out"></i>
+                <a asp-controller="Login" asp-action="Logout" class="btn"><i class='bx bx-log-out' id="log_out"></i></a>
             </li>
         </ul>
     </div>
 </body>
+
+</html>
+

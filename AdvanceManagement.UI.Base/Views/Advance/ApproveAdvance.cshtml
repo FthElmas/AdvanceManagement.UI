@@ -14,7 +14,7 @@
     <link href="~/css/approveadvance.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container" style="margin-top:50px">
+    <div class="container" style="margin-top:300px">
         <div class="row">
             <div class="col-md-6">
                 <div class="rounded p-3 bg-white bg-opacity-75">
@@ -120,7 +120,14 @@
                             <label for="amount" style="color: black;">Uygun Görülen Tutar:</label>
                         </div>
                         <input type="number" id="approvedAmount" name="approvedAmount" required>
-
+                    @if (@Model.AdvanceRequestStatus[Model.AdvanceRequestStatus.Count - 1].ApprovedAmount == 0)
+                    {
+                        <input type="hidden" name="lastAmount" value="@Model.Advance.AdvanceAmount" />
+                    }
+                    else
+                    {
+                        <input type="hidden" name="lastAmount" value="@Model.AdvanceRequestStatus[Model.AdvanceRequestStatus.Count-1].ApprovedAmount" />
+                    }
                         <div class="button-container">
                         <button asp-controller="Advance" asp-action="ApproveAdvance" asp-route-isApproved="@false" asp-route-requestID="@Model.AdvanceRequestStatusID" class="btn button red">RED</button>
                         <button asp-controller="Advance" asp-action="ApproveAdvance" asp-route-isApproved="@true" asp-route-requestID="@Model.AdvanceRequestStatusID" class="btn button green">ONAY</button>
