@@ -12,6 +12,8 @@ namespace AdvanceManagement.UI.DataTransfer.DataTransferObjects.Complex
     {
         public UserDTO User { get; set; } = new UserDTO();
 
+        public UserAddDTO UserAdd { get; set; } = new UserAddDTO();
+
         public WorkerAddDTO Worker { get; set; } = new WorkerAddDTO();
     }
 }

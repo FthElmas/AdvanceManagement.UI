@@ -1,7 +1,11 @@
-﻿using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTUser;
+﻿using AdvanceManagement.API.DataTransfer.DataTransferObjects.Complex;
+using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTAdvanceRequestStatus;
+using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTPageAuthorization;
+using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTUser;
 using AdvanceManagement.API.DataTransfer.DataTransferObjects.DTWorker;
 using AdvanceManagement.UI.DataTransfer.DataTransferObjects.Complex;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,18 +39,32 @@ namespace AdvanceManagement.UI.Service.Services
             return "";
         }
 
-        public async Task<bool> Register(LoginDTO login)
+        public async Task<bool> Register(RegisterDTO register)
         {
-            StringContent stringContent = new StringContent(JsonConvert.SerializeObject(login));
+            StringContent stringContent = new StringContent(JsonConvert.SerializeObject(register));
             stringContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            var donendeger = await _client.PostAsync("register", stringContent);
+            var value = await _client.PostAsync("register", stringContent);
 
-            if (donendeger.IsSuccessStatusCode)
+            if (value.IsSuccessStatusCode)
             {
                 return true;
             }
 
             return false;
+        }
+
+
+        public async Task<List<PageAuthorizationSelectDTO>> GetAuthorization(string username)
+        {
+
+            var value = await _client.GetAsync($"Login/{username}");
+
+            if (value.IsSuccessStatusCode)
+            {
+                return JsonConvert.DeserializeObject<List<PageAuthorizationSelectDTO>>(await value.Content.ReadAsStringAsync());
+            }
+
+            return null;
         }
     }
 }

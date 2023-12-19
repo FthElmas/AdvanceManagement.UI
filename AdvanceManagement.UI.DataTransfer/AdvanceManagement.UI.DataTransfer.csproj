@@ -7,15 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataTransferObjects\DTAdvanceRequestStatus\" />
-    <Folder Include="DataTransferObjects\DTApprovalStatus\" />
-    <Folder Include="DataTransferObjects\DTFinanceManager\" />
-    <Folder Include="DataTransferObjects\DTPaybackReceipt\" />
-    <Folder Include="DataTransferObjects\DTPaymentReceipt\" />
-    <Folder Include="DataTransferObjects\DTProject\" />
-    <Folder Include="DataTransferObjects\DTTitleAmountApprovalRule\" />
-    <Folder Include="DataTransferObjects\DTTitle\" />
     <Folder Include="DataTransferObjects\DTUnit\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
   </ItemGroup>
 
 </Project>

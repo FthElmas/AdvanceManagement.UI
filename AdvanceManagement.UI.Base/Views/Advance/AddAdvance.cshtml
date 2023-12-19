@@ -1,43 +1,75 @@
-﻿
+﻿@model AdvanceAddDTO
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
         .form-container {
-            max-width: 400px;
-            margin: 50px auto;
+            max-width: 600px; /* Genişliği artırabilirsiniz */
+            margin: auto;
+        }
+
+        .image-container {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="form-container">
-                    <form method="post">
-                        <div class="form-group">
-                            <label for="topNumber">Top Number</label>
-                            <input type="number" class="form-control" id="topNumber" name="topNumber" placeholder="Enter a number">
-                        </div>
-                        <div class="form-group">
-                            <label for="datetime">Datetime</label>
-                            <input type="datetime-local" class="form-control" id="datetime" name="datetime">
-                        </div>
-                        <div class="form-group">
-                            <label for="select">Select</label>
-                            <select class="form-control" id="select" name="select">
-                                <option>Option 1</option>
-                                <option>Option 2</option>
-                                <option>Option 3</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="textarea">Textarea</label>
-                            <textarea class="form-control" id="textarea" name="textarea" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+            
+            <div class="col-12 col-md-7">
+                <div class="rounded p-3 bg-white bg-opacity-75">
+                    <div class="form-container">
+                       
+                        <form asp-controller="Advance" asp-action="AddAdvance">
+                            <div class="form-group">
+                                <label asp-for="AdvanceAmount">Avans Miktarı :</label>
+                                <input asp-for="AdvanceAmount" type="number" class="form-control" id="topNumber" placeholder="Enter a number">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="RequestDate">Avans Edilen Talep Tarih :</label>
+                                <input asp-for="RequestDate" type="datetime-local" class="form-control" id="datetime">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ProjectID">Proje</label>
+                                <select asp-for="ProjectID" asp-items="@Model.Projects" class="form-control" id="select"></select>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="AdvanceExplanation">Açıklama</label>
+                                <textarea asp-for="AdvanceExplanation" class="form-control" id="textarea" rows="3"></textarea>
+                            </div>
+                            <button asp-controller="Advance" asp-action="AddAdvance" type="submit" class="btn btn-primary text-right">Talep Et</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Container -->
+            <div class="col-12 col-md-5">
+                <div class="image-container">
+                    <!-- Resim içeriği burada -->
+                    <img src="~/Images/fineksus_logo.jpeg" alt="">
                 </div>
             </div>
         </div>

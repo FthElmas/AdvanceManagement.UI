@@ -1,0 +1,134 @@
+﻿@model ApproveAdvanceDTO
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avans Yönetim Sistemi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/approveadvance.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" style="margin-top:50px">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="rounded p-3 bg-white bg-opacity-75">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Çalışan Adı :</th>
+                                <td>@Model.Advance.Worker.WorkerName</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Unvanı</th>
+                                <td>@Model.Advance.Title.TitleName</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Birimi</th>
+                                <td>@Model.Advance.Unit.UnitName</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Talep Tarihi</th>
+                                <td>@Model.Advance.CreatedDate</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Alınmak İstenen Tarih:</th>
+                                <td>@Model.Advance.RequestDate</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Proje</th>
+                                <td>@Model.Advance.Project.ProjectName</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6 rounded">
+                <div class="rounded p-3 bg-white bg-opacity-75">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Talep Edilen Tutar :</th>
+                                <td>@Model.Advance.AdvanceAmount</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Son Onaylanan Tutar :</th>
+                                <td>@Model.AdvanceRequestStatus[Model.AdvanceRequestStatus.Count - 1].ApprovedAmount</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Son Durumu</th>
+                                <td>@Model.AdvanceRequestStatus[Model.AdvanceRequestStatus.Count - 1].StatusName</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Açıklama</th>
+                                <td>@Model.Advance.AdvanceExplanation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-12" style="margin-top:40px">
+                <div class="rounded p-3 bg-white bg-opacity-75">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Durum</th>
+                                <th scope="col">İşlem Zamanı</th>
+                                <th scope="col">İşlemi Yapan</th>
+                                <th scope="col">Sonraki Durum</th>
+                                <th scope="col">Onaylanan Tutar</th>
+                                <th scope="col">Ödeme Yapılacak Tarih</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var item in Model.AdvanceRequestStatus)
+                            {
+                                int x = 1;
+                                <tr>
+                                    <td>@x</td>
+                                    <td>@item.StatusName</td>
+                                    <td>@item.ProcessDate</td>
+                                    @if(item.Worker != null)
+                                    {
+                                        <td>@item.Worker.WorkerName</td>
+                                    }
+                                    else
+                                    {
+                                        <td>Sistem</td>
+                                    }
+                                    <td>---</td>
+                                    <td>@item.ApprovedAmount</td>
+                                    <td>---</td>
+                                </tr>
+                                x++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" style="margin-top:50px">
+            <div class="form-container">
+                    <form asp-controller="Advance" asp-action="ApproveAdvance">
+                        <div style="margin-bottom: 10px;">
+                            <label for="amount" style="color: black;">Uygun Görülen Tutar:</label>
+                        </div>
+                        <input type="number" id="approvedAmount" name="approvedAmount" required>
+
+                        <div class="button-container">
+                        <button asp-controller="Advance" asp-action="ApproveAdvance" asp-route-isApproved="@false" asp-route-requestID="@Model.AdvanceRequestStatusID" class="btn button red">RED</button>
+                        <button asp-controller="Advance" asp-action="ApproveAdvance" asp-route-isApproved="@true" asp-route-requestID="@Model.AdvanceRequestStatusID" class="btn button green">ONAY</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+       
+    </div>
+</body>
+</html>

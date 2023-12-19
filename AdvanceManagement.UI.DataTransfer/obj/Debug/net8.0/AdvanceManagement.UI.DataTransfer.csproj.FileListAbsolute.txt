@@ -10,3 +10,4 @@ C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransf
 C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\refint\AdvanceManagement.UI.DataTransfer.dll
 C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.pdb
 C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\ref\AdvanceManagement.UI.DataTransfer.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\obj\Debug\net8.0\AdvanceManagement.UI.DataTransfer.csproj.AssemblyReference.cache

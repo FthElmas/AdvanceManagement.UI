@@ -14,6 +14,37 @@ builder.Services.AddHttpClient<LoginConnectionService>(conf =>
 {
     conf.BaseAddress = new Uri("http://localhost:64672/api/");
 });
+builder.Services.AddScoped<AdvanceConnectionService>();
+builder.Services.AddHttpClient<AdvanceConnectionService>(conf =>
+{
+    conf.BaseAddress = new Uri("http://localhost:64672/api/");
+});
+
+builder.Services.AddScoped<AdvanceRequestStatusConnectionService>();
+builder.Services.AddHttpClient<AdvanceRequestStatusConnectionService>(conf =>
+{
+    conf.BaseAddress = new Uri("http://localhost:64672/api/");
+});
+
+builder.Services.AddScoped<FinanceManagerConnectionService>();
+builder.Services.AddHttpClient<FinanceManagerConnectionService>(conf =>
+{
+    conf.BaseAddress = new Uri("http://localhost:64672/api/");
+});
+
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddScoped<ProjectConnectionService>();
+builder.Services.AddHttpClient<ProjectConnectionService>(conf =>
+{
+    conf.BaseAddress = new Uri("http://localhost:64672/api/");
+});
+
+builder.Services.AddScoped<PaymentReceiptControllerService>();
+builder.Services.AddHttpClient<PaymentReceiptControllerService>(conf =>
+{
+    conf.BaseAddress = new Uri("http://localhost:64672/api/");
+});
 
 
 builder.Services.AddCors(opt =>
@@ -31,7 +62,11 @@ builder.Services.AddAuthentication(a =>
     a.Cookie.HttpOnly = true;
 });
 builder.Services.AddAuthorization();
-builder.Services.AddSession();
+builder.Services.AddSession(opt =>
+{
+    opt.IdleTimeout = TimeSpan.FromMinutes(15);
+    opt.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -43,6 +78,8 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthorization();
 app.UseAuthentication();

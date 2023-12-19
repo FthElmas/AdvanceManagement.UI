@@ -15,15 +15,6 @@ namespace AdvanceManagement.API.DataTransfer.DataTransferObjects.DTWorker
 
         public string WorkerEmail { get; set; }
     
-        public string WorkerPhonenumber { get; set; }
-  
-        public int UserID { get; set; }
-   
-        public int UnitID { get; set; }
-    
-        public int TitleID { get; set; }
-       
-        public int ManagerID { get; set; }
         
         public bool IsActive { get; set; }
     }

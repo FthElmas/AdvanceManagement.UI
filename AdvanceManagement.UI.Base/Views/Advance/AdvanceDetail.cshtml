@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model List<AdvanceRequestStatusSelectDTO>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,66 +14,78 @@
 
         <div class="row">
             <div class="col-md-4">
-                <h2>Talep</h2>
-                <table class="table table-striped">
-                    <tbody>
-                        <tr>
-                            <th scope="row">Talep No</th>
-                            <td>Muhasebe Uzmani</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">İstenen Tutar</th>
-                            <td>4.200</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Onaylanan Tutar</th>
-                            <td>.NET</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">İhtiyaç Tarihi</th>
-                            <td>09-12-2023</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Talep Tarihi</th>
-                            <td>13-12-2023</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Proje</th>
-                            <td>.NET</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Son Durumu</th>
-                            <td>Muhasebe Uzmani</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="rounded p-3 bg-white bg-opacity-75">
+                    <h2>Talep</h2>
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Talep No</th>
+                                <td>@Model[0].Advance.AdvanceID</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">İstenen Tutar</th>
+                                <td>@Model[0].Advance.AdvanceAmount</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Onaylanan Tutar</th>
+                                <td>@Model[Model.Count - 1].ApprovedAmount</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">İhtiyaç Tarihi</th>
+                                <td>@Model[0].Advance.RequestDate</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Talep Tarihi</th>
+                                <td>@Model[0].Advance.CreatedDate</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Proje</th>
+                                <td>@Model[0].Project.ProjectName</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Son Durumu</th>
+                                <td>@Model[Model.Count - 1].StatusName</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="col-md-8">
-                <h2>Avans Listesi</h2>
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">No</th>
-                            <th scope="col">Durum</th>
-                            <th scope="col">İşlem Zamanı</th>
-                            <th scope="col">İşlemi Yapan</th>
-                            <th scope="col">Sonraki Durum</th>
-                            <th scope="col">Onaylanan Tutar</th>
-                            <th scope="col">Ödeme Yapılacak Tarih</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>09-12-2023</td>
-                            <td>4.200</td>
-                            <td>09-12-2023</td>
-                            <td>Muhasebe Uzmani</td>
-                            <td>Onaylanan</td>
-                            <td>Onaylanan</td>
-                            <td>Onaylanan</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="rounded p-3 bg-white bg-opacity-75">
+                    <h2>Avans Listesi</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Durum</th>
+                                <th scope="col">İşlem Zamanı</th>
+                                <th scope="col">İşlemi Yapan</th>
+                                <th scope="col">Onaylanan Tutar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var item in Model)
+                            {
+                                int x = 1;
+                                <tr>
+                                    <td>@x</td>
+                                    <td>@item.StatusName</td>
+                                    <td>@item.ProcessDate</td>
+                                    @if(item.Worker != null)
+                                    {
+                                        <td>@item.Worker.WorkerName</td>
+                                    }
+                                    else
+                                    {
+                                        <td>İşlem Yapan Yok</td>
+                                    }
+                                    <td>@item.ApprovedAmount</td>
+                                </tr>
+                                x++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

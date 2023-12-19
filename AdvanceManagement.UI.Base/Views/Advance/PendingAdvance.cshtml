@@ -1,0 +1,59 @@
+﻿@model List<AdvanceRequestStatusSelectDTO>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avans Yönetim Sistemi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12" style="margin-top:100px">
+                <h2>Avans Listesi</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Çalışan Adı</th>
+                            <th scope="col">Unvanı</th>
+                            <th scope="col">Birimi</th>
+                            <th scope="col">Talep Durumu</th>
+                            <th scope="col">Talep Tutarı</th>
+                            <th scope="col">Talep Oluşturma Tarihi</th>
+                            <th scope="col">İstenilen Tarih</th>
+                            <th scope="col">Proje</th>
+                            <th class="text-right" scope="col">Detay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Worker.WorkerName</td>
+                                <td>@item.Title.TitleName</td>
+                                <td>@item.Unit.UnitName</td>
+                                <td>@item.StatusName</td>
+                                <td>@item.Advance.AdvanceAmount</td>
+                                <td>@item.Advance.CreatedDate</td>
+                                <td>@item.Advance.RequestDate</td>
+                                <td>@item.Project.ProjectName</td>
+                                <td class="text-right">
+                                    <a asp-controller="Advance" asp-action="ApproveAdvance" asp-route-advanceID = "@item.AdvanceID" asp-route-requestID ="@item.AdvanceRequestStatusID" class="btn btn-close-white"><i class="fa fa-plus"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

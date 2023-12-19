@@ -1,0 +1,99 @@
+﻿@model List<AdvanceSelectDTO>
+
+@{
+   
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avans Yönetim Sistemi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        .table {
+            width: 100%; /* Tablo genişliğini yüzde olarak ayarla */
+            
+        }
+        th, td {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-md-12" style="margin-top:100px">
+                <div class="rounded p-lg-4 bg-white bg-opacity-75 table-responsive">
+                    <h2>Avans Listesi</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Talep Tutarı</th>
+                                <th scope="col">Talep Oluşturma Tarihi</th>
+                                <th scope="col">İstenilen Tarih</th>
+                                <th scope="col">Proje</th>
+                                <th scope="col">Talep Durumu</th>
+                                <th scope="col">Onaylayan/Reddeden Unvan</th>
+                                <th scope="col">Onay/Red Tarihi</th>
+                                <th scope="col">Onaylanan Tutar</th>
+                                <th scope="col">Belirlenen Ödeme Tarihi</th>
+                                <th scope="col">Ödeme Yapılan Tarih</th>
+                                <th scope="col">Geri Ödeme Durumu</th>
+                                <th scope="col">Detay</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.AdvanceAmount</td>
+                                    <td>@item.CreatedDate</td>
+                                    <td>@item.RequestDate</td>
+                                    <td>@item.Project.ProjectName</td>
+                                    <td>@item.ApprovalStatus.ApprovalName</td>
+                                    @if (@item.Worker != null)
+                                    {
+                                        <td>@item.Worker.WorkerName</td>
+                                    }
+                                    else
+                                    {
+                                        <td>----</td>
+                                    }
+
+                                    <td>@item.AdvanceRequestStatus.ProcessDate</td>
+                                    <td>@item.AdvanceRequestStatus.ApprovedAmount</td>
+                                    <td>@item.FinanceManager.DeterminedPaymentDate</td>
+                                    <td>-</td>
+                                    <td>Yapılmadı</td>
+                                    <td class="text-right">
+                                        <a asp-controller="Advance" asp-action="AdvanceDetail" asp-route-advanceID="@item.AdvanceID" class="btn btn-close-white"><i class="fa fa-plus"></i></a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
