@@ -1,0 +1,6 @@
+﻿C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\AdvanceConnectionService.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\AdvanceRequestStatusConnectionService.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\FinanceManagerConnectionService.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\LoginConnectionService.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\PaymentReceiptControllerService.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\ProjectConnectionService.cs

@@ -1,0 +1,554 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Derleyicisi",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-3.23524.11 (f43cd10b)",
+        "semanticVersion": "4.8.0",
+        "language": "tr-TR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceRequestStatusConnectionService.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 24,
+                  "endLine": 30,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceRequestStatusConnectionService.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 20,
+                  "endLine": 32,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/ProjectConnectionService.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 24,
+                  "endLine": 28,
+                  "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/ProjectConnectionService.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 20,
+                  "endLine": 30,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 24,
+                  "endLine": 45,
+                  "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 20,
+                  "endLine": 47,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceRequestStatusConnectionService.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 24,
+                  "endLine": 43,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceRequestStatusConnectionService.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 20,
+                  "endLine": 45,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/LoginConnectionService.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 24,
+                  "endLine": 64,
+                  "endColumn": 128
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/LoginConnectionService.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 20,
+                  "endLine": 67,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 24,
+                  "endLine": 56,
+                  "endColumn": 112
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 20,
+                  "endLine": 58,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceRequestStatusConnectionService.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 24,
+                  "endLine": 55,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceRequestStatusConnectionService.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 20,
+                  "endLine": 57,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 24,
+                  "endLine": 67,
+                  "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 20,
+                  "endLine": 69,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 24,
+                  "endLine": 79,
+                  "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 20,
+                  "endLine": 81,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_client' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/FinanceManagerConnectionService.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 20,
+                  "endLine": 15,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_client' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/ProjectConnectionService.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 20,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_client' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/PaymentReceiptControllerService.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 20,
+                  "endLine": 15,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_client' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/LoginConnectionService.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 20,
+                  "endLine": 20,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_client' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceRequestStatusConnectionService.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 20,
+                  "endLine": 16,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_client' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Service/Services/AdvanceConnectionService.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 20,
+                  "endLine": 17,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Olası null başvuru dönüşü.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

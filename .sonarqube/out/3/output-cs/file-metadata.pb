@@ -1,0 +1,10 @@
+{
+rC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\AdvanceConnectionService.csutf-8à
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\AdvanceRequestStatusConnectionService.csutf-8Ç
+yC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\FinanceManagerConnectionService.csutf-8y
+pC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\LoginConnectionService.csutf-8Ç
+yC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\PaymentReceiptControllerService.csutf-8{
+rC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\Services\ProjectConnectionService.csutf-8ô
+çC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.GlobalUsings.g.csutf-8ô
+çC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8ó
+ãC:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\obj\Debug\net8.0\AdvanceManagement.UI.Service.AssemblyInfo.csutf-8

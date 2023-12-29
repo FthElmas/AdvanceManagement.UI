@@ -46,19 +46,27 @@
                                 <th scope="row">Son Durumu</th>
                                 <td>@Model[Model.Count - 1].StatusName</td>
                             </tr>
+                            @if (Model.Last().FinanceManager != null)
+                            {
+                                <tr>
+                                    <th scope="row">Ödeme Tarihi</th>
+                                    <td>@Model.Last().FinanceManager.DeterminedPaymentDate</td>
+                                </tr>
+                            }
                         </tbody>
                     </table>
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="rounded p-3 bg-white bg-opacity-75">
-                    <h2>Avans Listesi</h2>
+                    <h2>Avans Durum Listesi</h2>
                     <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col">No</th>
                                 <th scope="col">Durum</th>
                                 <th scope="col">İşlem Zamanı</th>
+                                <th scope="col">İşlem</th>
                                 <th scope="col">İşlemi Yapan</th>
                                 <th scope="col">Onaylanan Tutar</th>
                             </tr>
@@ -70,19 +78,28 @@
                                 <tr>
                                     <td>@x</td>
                                     <td>@item.StatusName</td>
-                                    <td>@item.ProcessDate</td>
+                                    @if(item.Worker != null)
+                                    {
+                                        <td>@item.ProcessDate</td>
+                                    }
+                                    else
+                                    {
+                                        <td>@item.CreatedDate</td>
+                                    }
+                                    <td>@item.ApprovalStatus.ApprovalName</td>
                                     @if(item.Worker != null)
                                     {
                                         <td>@item.Worker.WorkerName</td>
                                     }
                                     else
                                     {
-                                        <td>İşlem Yapan Yok</td>
+                                        <td>Sistem</td>
                                     }
                                     <td>@item.ApprovedAmount</td>
                                 </tr>
                                 x++;
                             }
+                            
                         </tbody>
                     </table>
                 </div>

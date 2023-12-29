@@ -1,0 +1,2713 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Derleyicisi",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-3.23524.11 (f43cd10b)",
+        "semanticVersion": "4.8.0",
+        "language": "tr-TR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0105",
+          "level": "warning",
+          "message": "'AdvanceManagement.UI.DataTransfer.DataTransferObjects.Complex' için using yönergesi bu ad alanında daha önce göründü",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views__ViewImports_cshtml.g.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 7,
+                  "endLine": 59,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 59,
+                  "endLine": 21,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8629",
+          "level": "warning",
+          "message": "Boş değer atanabilir değer türü null olabilir.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 54,
+                  "endLine": 21,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/ViewComponents/SideMenuViewComponent.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 55,
+                  "endLine": 24,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'Task<List<PageAuthorizationSelectDTO>> LoginConnectionService.GetAuthorization(string username)' içindeki 'username' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/ViewComponents/SideMenuViewComponent.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 55,
+                  "endLine": 24,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8601",
+          "level": "warning",
+          "message": "Olası null başvuru ataması.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/ViewComponents/SideMenuViewComponent.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 28,
+                  "endLine": 29,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8601",
+          "level": "warning",
+          "message": "Olası null başvuru ataması.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/ViewComponents/SideMenuViewComponent.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 30,
+                  "endLine": 30,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Home_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 67,
+                  "endLine": 64,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__Layout_cshtml.g.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 232,
+                  "endLine": 97,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__Layout_cshtml.g.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 241,
+                  "endLine": 153,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__Layout_cshtml.g.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 241,
+                  "endLine": 167,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_FinancePendingAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 234,
+                  "endLine": 93,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_FinancePendingAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 236,
+                  "endLine": 212,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 33,
+                  "endLine": 80,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8629",
+          "level": "warning",
+          "message": "Boş değer atanabilir değer türü null olabilir.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 28,
+                  "endLine": 80,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AccountantPendingAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 234,
+                  "endLine": 93,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AccountantPendingAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 236,
+                  "endLine": 204,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_PendingAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 234,
+                  "endLine": 93,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_PendingAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 236,
+                  "endLine": 212,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_PastAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 234,
+                  "endLine": 94,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_PastAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 236,
+                  "endLine": 275,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AdvanceDetail_cshtml.g.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 234,
+                  "endLine": 89,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AdvanceDetail_cshtml.g.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 234,
+                  "endLine": 109,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views__ViewStart_cshtml.g.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 67,
+                  "endLine": 64,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__EmployeeLayout_cshtml.g.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 67,
+                  "endLine": 64,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 41,
+                  "endLine": 105,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 41,
+                  "endLine": 122,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views__ViewImports_cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 67,
+                  "endLine": 71,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared_Error_cshtml.g.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 67,
+                  "endLine": 64,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 16,
+                  "endLine": 143,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8629",
+          "level": "warning",
+          "message": "Boş değer atanabilir değer türü null olabilir.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 64,
+                  "endLine": 145,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AccountantAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 232,
+                  "endLine": 108,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AccountantAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 232,
+                  "endLine": 123,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AccountantAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 245,
+                  "endLine": 369,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__ValidationScriptsPartial_cshtml.g.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 236,
+                  "endLine": 89,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__ValidationScriptsPartial_cshtml.g.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 236,
+                  "endLine": 103,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_FinanceAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 232,
+                  "endLine": 108,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_FinanceAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 232,
+                  "endLine": 123,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_FinanceAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 245,
+                  "endLine": 375,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 32,
+                  "endLine": 37,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'Claim.Claim(string type, string value)' içindeki 'value' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 42,
+                  "endLine": 52,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'Claim.Claim(string type, string value)' içindeki 'value' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 43,
+                  "endLine": 53,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'Claim.Claim(string type, string value)' içindeki 'value' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 45,
+                  "endLine": 54,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 67,
+                  "endLine": 172,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8629",
+          "level": "warning",
+          "message": "Boş değer atanabilir değer türü null olabilir.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 62,
+                  "endLine": 172,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 32,
+                  "endLine": 189,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared_Components_SideMenu_Default_cshtml.g.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 232,
+                  "endLine": 108,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared_Components_SideMenu_Default_cshtml.g.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 240,
+                  "endLine": 123,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared_Components_SideMenu_Default_cshtml.g.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 233,
+                  "endLine": 202,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared_Components_SideMenu_Default_cshtml.g.cs",
+                "region": {
+                  "startLine": 233,
+                  "startColumn": 236,
+                  "endLine": 233,
+                  "endColumn": 238
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_ApproveAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 232,
+                  "endLine": 108,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_ApproveAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 232,
+                  "endLine": 123,
+                  "endColumn": 234
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_ApproveAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 245,
+                  "endLine": 414,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_ApproveAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 459,
+                  "startColumn": 245,
+                  "endLine": 459,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 235,
+                  "endLine": 112,
+                  "endColumn": 237
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 244,
+                  "endLine": 169,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 239,
+                  "endLine": 191,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 244,
+                  "endLine": 220,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 239,
+                  "endLine": 242,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 244,
+                  "endLine": 270,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 292,
+                  "startColumn": 245,
+                  "endLine": 292,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 244,
+                  "endLine": 323,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 345,
+                  "startColumn": 247,
+                  "endLine": 345,
+                  "endColumn": 249
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 245,
+                  "endLine": 369,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AddAdvance_cshtml.g.cs",
+                "region": {
+                  "startLine": 415,
+                  "startColumn": 233,
+                  "endLine": 415,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 233,
+                  "endLine": 133,
+                  "endColumn": 235
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 241,
+                  "endLine": 148,
+                  "endColumn": 243
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 239,
+                  "endLine": 186,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 244,
+                  "endLine": 215,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 239,
+                  "endLine": 238,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 244,
+                  "endLine": 267,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 307,
+                  "startColumn": 245,
+                  "endLine": 307,
+                  "endColumn": 247
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 239,
+                  "endLine": 359,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 388,
+                  "startColumn": 244,
+                  "endLine": 388,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 411,
+                  "startColumn": 239,
+                  "endLine": 411,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 440,
+                  "startColumn": 244,
+                  "endLine": 440,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 239,
+                  "endLine": 463,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 492,
+                  "startColumn": 244,
+                  "endLine": 492,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 515,
+                  "startColumn": 239,
+                  "endLine": 515,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 542,
+                  "startColumn": 244,
+                  "endLine": 542,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Login_Index_cshtml.g.cs",
+                "region": {
+                  "startLine": 610,
+                  "startColumn": 239,
+                  "endLine": 610,
+                  "endColumn": 241
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "'Views_Advance_AdvanceDetail.__tagHelperStringValueBuffer' alanı hiçbir zaman kullanılmaz",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Advance_AdvanceDetail_cshtml.g.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 24,
+                  "endLine": 69,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "'Views_Shared__ValidationScriptsPartial.__tagHelperStringValueBuffer' alanı hiçbir zaman kullanılmaz",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__ValidationScriptsPartial_cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 24,
+                  "endLine": 71,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "'Views_Shared_Components_SideMenu_Default.__tagHelperStringValueBuffer' alanı hiçbir zaman kullanılmaz",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared_Components_SideMenu_Default_cshtml.g.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 24,
+                  "endLine": 77,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "'Views_Shared__Layout.__tagHelperStringValueBuffer' alanı hiçbir zaman kullanılmaz",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__Layout_cshtml.g.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 24,
+                  "endLine": 73,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/HomeController.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 50,
+                  "endLine": 9,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'ApproveAdvance' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 42,
+                  "endLine": 27,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 42,
+                  "endLine": 94,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
+            }
+          }
+        },
+        {
+          "ruleId": "S2583",
+          "level": "warning",
+          "message": "Change this condition so that it does not always evaluate to 'True'. Some code paths are unreachable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 16,
+                  "endLine": 85,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 20,
+                  "endLine": 90,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 31,
+                  "endLine": 99,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'x'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Advance/AdvanceDetail.cshtml",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 33,
+                  "endLine": 100,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2589",
+          "level": "warning",
+          "message": "Change this condition so that it does not always evaluate to 'True'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/AdvanceController.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 22,
+                  "endLine": 116,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3330",
+          "level": "warning",
+          "message": "Make sure creating this cookie without the \"HttpOnly\" flag is safe.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 69,
+                  "endLine": 29,
+                  "endColumn": 140
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2092",
+          "level": "warning",
+          "message": "Make sure creating this cookie without setting the 'Secure' property is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 69,
+                  "endLine": 29,
+                  "endColumn": 140
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6608",
+          "level": "warning",
+          "message": "Indexing at Count-1 should be used instead of the \"Enumerable\" extension method \"Last\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Advance/AdvanceDetail.cshtml",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 40,
+                  "endLine": 49,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6608",
+          "level": "warning",
+          "message": "Indexing at Count-1 should be used instead of the \"Enumerable\" extension method \"Last\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Advance/AdvanceDetail.cshtml",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 49,
+                  "endLine": 53,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2589",
+          "level": "warning",
+          "message": "Change this expression which always evaluates to the same result.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 44,
+                  "endLine": 39,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2589",
+          "level": "warning",
+          "message": "Change this expression which always evaluates to the same result.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 45,
+                  "endLine": 40,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2589",
+          "level": "warning",
+          "message": "Change this expression which always evaluates to the same result.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Controllers/LoginController.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 34,
+                  "endLine": 41,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'x'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Views/Advance/ApproveAdvance.cshtml",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 33,
+                  "endLine": 109,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Program.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 32,
+                  "endLine": 17,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Program.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 32,
+                  "endLine": 22,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Program.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 32,
+                  "endLine": 28,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Program.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 32,
+                  "endLine": 34,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Program.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 32,
+                  "endLine": 42,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Fatih/source/repos/AdvanceManagement.UI/AdvanceManagement.UI.Base/Program.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 32,
+                  "endLine": 48,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0105": {
+          "id": "CS0105",
+          "shortDescription": "Bu ad alanında daha önce görünen yönerge kullanılıyor",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0105)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "Alan hiç kullanılmadı",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0169)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "Zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8601": {
+          "id": "CS8601",
+          "shortDescription": "Olası null başvuru ataması.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8601)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Olası bir null başvurunun başvurma işlemi.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Olası null başvuru bağımsız değişkeni.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8629": {
+          "id": "CS8629",
+          "shortDescription": "Boş değer atanabilir değer türü null olabilir.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8629)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1075": {
+          "id": "S1075",
+          "shortDescription": "URIs should not be hardcoded",
+          "fullDescription": "Hard-coding a URI makes it difficult to test a program for a variety of reasons:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "A boolean literal can be represented in two different ways: true or false. They can be combined with logical operators (!, &&, ||, ==, !=) to produce logical expressions that represent truth values. However, comparing a boolean literal to a variable or expression that evaluates to a boolean value is unnecessary and can make the code harder to read and understand. The more complex a boolean expression is, the harder it will be for developers to understand its meaning and expected behavior, and it will favour the introduction of new bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1854": {
+          "id": "S1854",
+          "shortDescription": "Unused assignments should be removed",
+          "fullDescription": "Dead stores refer to assignments made to local variables that are subsequently never used or immediately overwritten. Such assignments are unnecessary and don’t contribute to the functionality or clarity of the code. They may even negatively impact performance. Removing them enhances code cleanliness and readability. Even if the unnecessary operations do not do any harm in terms of the program’s correctness, they are - at best - a waste of computing resources.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2092": {
+          "id": "S2092",
+          "shortDescription": "Creating cookies without the \"secure\" flag is security-sensitive",
+          "fullDescription": "When a cookie is protected with the secure attribute set to true it will not be send by the browser over an unencrypted HTTP request and thus cannot be observed by an unauthorized person during a man-in-the-middle attack.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2092",
+          "properties": {
+            "category": "Minor Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2583": {
+          "id": "S2583",
+          "shortDescription": "Conditionally executed code should be reachable",
+          "fullDescription": "Conditional expressions which are always true or false can lead to unreachable code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2583",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2589": {
+          "id": "S2589",
+          "shortDescription": "Boolean expressions should not be gratuitous",
+          "fullDescription": "Gratuitous boolean expressions are conditions that do not change the evaluation of a program. This issue can indicate logical errors and affect the correctness of an application, as well as its maintainability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2589",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3330": {
+          "id": "S3330",
+          "shortDescription": "Creating cookies without the \"HttpOnly\" flag is security-sensitive",
+          "fullDescription": "When a cookie is configured with the HttpOnly attribute set to true, the browser guaranties that no client-side script will be able to read it. In most cases, when a cookie is created, the default value of HttpOnly is false and it’s up to the developer to decide whether or not the content of the cookie can be read by the client-side script. As a majority of Cross-Site Scripting (XSS) attacks target the theft of session-cookies, the HttpOnly attribute can help to reduce their impact as it won’t be possible to exploit the XSS vulnerability to steal session-cookies.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3330",
+          "properties": {
+            "category": "Minor Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4136": {
+          "id": "S4136",
+          "shortDescription": "Method overloads should be grouped together",
+          "fullDescription": "For clarity, all overloads of the same method should be grouped together. That lets both users and maintainers quickly understand all the current available options.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4136",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6608": {
+          "id": "S6608",
+          "shortDescription": "Prefer indexing instead of \"Enumerable\" methods on types implementing \"IList\"",
+          "fullDescription": "Indexes in C# provide direct access to an element at a specific position within an array or collection. When compared to Enumerable methods, indexing can be more efficient for certain scenarios, such as iterating over a large collection, due to avoiding the overhead of checking the underlying collection type before accessing it.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6608",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\bin\Debug\net8.0\AdvanceManagement.UI.Validation.deps.json
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\bin\Debug\net8.0\AdvanceManagement.UI.Validation.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\bin\Debug\net8.0\AdvanceManagement.UI.Validation.pdb
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\AdvanceManagement.UI.Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\AdvanceManagement.UI.Validation.AssemblyInfoInputs.cache
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\AdvanceManagement.UI.Validation.AssemblyInfo.cs
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\AdvanceManagement.UI.Validation.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\AdvanceManagement.UI.Validation.sourcelink.json
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\AdvanceManagement.UI.Validation.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\refint\AdvanceManagement.UI.Validation.dll
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\AdvanceManagement.UI.Validation.pdb
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\obj\Debug\net8.0\ref\AdvanceManagement.UI.Validation.dll

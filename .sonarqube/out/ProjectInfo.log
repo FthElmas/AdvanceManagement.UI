@@ -1,0 +1,27 @@
+Product projects
+---------------------------------------
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.DataTransfer\AdvanceManagement.UI.DataTransfer.csproj
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Service\AdvanceManagement.UI.Service.csproj
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Base\AdvanceManagement.UI.Base.csproj
+
+
+Test projects
+---------------------------------------
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.Validation\AdvanceManagement.UI.Validation.csproj
+C:\Users\Fatih\source\repos\AdvanceManagement.UI\AdvanceManagement.UI.ExceptionHandling\AdvanceManagement.UI.ExceptionHandling.csproj
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+
